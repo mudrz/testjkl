@@ -5,7 +5,7 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "postinstall": "npm run build"
+    "postinstall": "bsb -make-world"
   },
   "bin": {
     "zzd": "src/jklqwe"
