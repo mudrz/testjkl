@@ -5,11 +5,11 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "roll": "rollup -c && cp './src/main' './dist/main'"
+    "roll": "rollup -c && cp './src/main' './dist/main'",
+    "prepublishOnly": "yarn run build && yarn run roll"
   },
-  "main": "dist/jkl",
   "bin": {
-    "zzd": "src/jklqwe"
+    "zzd": "dist/main"
   },
   "keywords": [
     "BuckleScript"
