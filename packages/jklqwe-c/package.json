@@ -1,6 +1,6 @@
 {
   "name": "jklqwe-c",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
@@ -15,7 +15,7 @@
     "bs-platform": "^4.0.14"
   },
   "dependencies": {
-    "jklqwe-a": "^0.0.5",
-    "jklqwe-b": "^0.0.5"
+    "jklqwe-a": "^0.0.6",
+    "jklqwe-b": "^0.0.6"
   }
 }
