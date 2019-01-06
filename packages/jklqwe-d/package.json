@@ -1,6 +1,6 @@
 {
   "name": "jklqwe-d",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
@@ -23,6 +23,6 @@
     "rollup-plugin-node-resolve": "^4.0.0"
   },
   "dependencies": {
-    "jklqwe-c": "^0.0.8"
+    "jklqwe-c": "^0.0.9"
   }
 }
