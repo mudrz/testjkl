@@ -1,2 +1,2 @@
 Js.log("jklqwe-d");
-include JklqweC;
+include JklqweC.Demo;
