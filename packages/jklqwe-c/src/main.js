@@ -1,6 +1,4 @@
-#!/usr/bin/env node
-
-const { m } = require('../lib/js/src/Demo.bs')
+const { m } = require('./Demo.bs')
 
 process.argv.forEach(a => {
   console.log('========================')

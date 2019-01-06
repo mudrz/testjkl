@@ -5,8 +5,9 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "postinstall": "npm link bs-platform && bsb -make-world"
+    "roll": "rollup -c && cp './src/main' './dist/main'"
   },
+  "main": "dist/jkl",
   "bin": {
     "zzd": "src/jklqwe"
   },
@@ -16,7 +17,10 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^4.0.14"
+    "bs-platform": "^4.0.14",
+    "rollup": "^1.0.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
   },
   "dependencies": {
     "jklqwe-c": "^0.0.8"
